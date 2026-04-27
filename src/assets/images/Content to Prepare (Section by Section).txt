@@ -1,0 +1,29 @@
+﻿Content to Prepare (Section by Section)
+1. Header
+* full project title: LViT-N: Language-Guided Hybrid Segmentation with AI-Powered Clinical Report Generation
+* Member name: md.mukzanul alam nishat, shihab hossain shown, md. Nifat hossain, student ID: 2212445042, 22135054, 33292920, department: ECE, university name: north south university
+* Supervisor/advisor name: dr. shaffin rahman
+* University logo image (upload the file)
+* event name: capstone spring 2026
+2. Abstract / Introduction (
+LViT-N is a complete AI-powered radiology pipeline, from a custom-built hybrid segmentation model to a clinical explainability application designed for real-world use. At its core, it accepts a medical image, sends it to our custom-trained LViT-N segmentation model, which then renders the predicted anatomical region in a segmented mask. Once segmented, our system generates a structured radiology report covering clinical findings and impressions. Each sentence in the report is individually hoverable, and on click, it explains the clinical finding in easy & non technical language so that a patient can understand.
+
+
+3. System Architecture / Methodology
+* Uploaded the model architecture diagram.
+* Uploaded the webapp information flow diagram
+4. Key Features 
+* Multi-class medical image segmentation
+* Automated radiology report generation via MedGemma
+* Interactive term simplification via hover/click UI
+* Llm generated text annotation.
+5. Results / Metrics
+Provide your actual numbers:
+* Segmentation metrics  comparison (Dice score, IoU, accuracy per dataset): uploaded
+* Segmentation output comparison: uploaded
+6. Screenshots / Figures 
+* A sample segmentation output (original image + mask overlay): uploaded
+* A screenshot of the generated report UI with hover feature: uploaded
+7. Conclusion (~50 words)
+This project helps in bridging the gap between Radiology imaging and everyday understanding. For regions with limited access to specialist doctors, an AI-assisted tool like this can provide  faster, more informed diagnoses. By translating radiology findings into plain language, it empowers patients to better understand their own health outcomes.
+this project successfully delivers a custom-trained medical image segmentation model supporting three imaging types  (chest X-ray, brain MRI, and lungs CT) alongside a web application. Reports are  generated via Medgemma, ablation studies, and benchmarking are all complete. Current efforts are focused on pushing segmentation performance toward state-of-the-art results.

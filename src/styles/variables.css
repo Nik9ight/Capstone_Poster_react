@@ -1,0 +1,15 @@
+:root {
+  /* ---- Light palette ---- */
+  --bg-0:   #f7f5ef;        /* page canvas, warm off-white */
+  --bg-1:   #ffffff;        /* panel surface */
+  --bg-2:   #ece8dd;        /* section tint */
+  --bg-3:   #0b1f3a;        /* dark navy accent (for headers & ours-row) */
+  --ink:    #0b1f3a;        /* primary text — navy instead of pure black */
+  --ink-dim:#3a4a63;
+  --ink-mute:#7a8396;
+  --line:   rgba(11, 31, 58, 0.14);
+  --line-strong: rgba(11, 31, 58, 0.35);
+  --accent: oklch(0.55 0.16 155);           /* medical green, darker for light bg */
+  --accent-soft: oklch(0.55 0.16 155 / 0.12);
+  --accent-ink: oklch(0.38 0.14 155);       /* readable on soft tint */
+}
