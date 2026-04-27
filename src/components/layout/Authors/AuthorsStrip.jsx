@@ -18,7 +18,7 @@ const AuthorsStrip = () => {
       <div className="author supervisor">
         <span className="role">Supervisor</span>
         <div className="name">Dr. Shafin Rahman</div>
-        <div className="id">Faculty Advisor · ECE</div>
+        <div className="id">Associate Professor · ECE</div>
       </div>
       <div className="affiliation">
         <b>Dept. of Electrical &amp; Computer Engineering</b><br />
