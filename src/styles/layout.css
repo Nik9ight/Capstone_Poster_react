@@ -169,7 +169,7 @@
   background: var(--bg-1);
   border: 1px solid var(--line);
   border-radius: 4px;
-  padding: 8px 10px;
+  padding: 3px 10px;
   position: relative;
 }
 .panel.tint { background: var(--bg-2); }
@@ -367,12 +367,12 @@ table.metrics thead tr.group th {
   padding-bottom: 2px;
   border-bottom: none;
   color: var(--ink);
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: 0.04em;
 }
 table.metrics thead tr.sub th {
   padding-top: 2px;
-  font-size: 8.5px;
+  font-size: 9.5px;
 }
 table.metrics tbody td {
   padding: 5px 4px;
@@ -386,7 +386,7 @@ table.metrics tbody td:first-child {
   text-align:left; padding-left: 20px;
   color: var(--ink);
   font-weight: 500;
-  font-size: 11.5px;
+  font-size: 13.5px;
   white-space: nowrap;
 }
 table.metrics tbody td:last-child { padding-right: 20px; }
@@ -496,7 +496,7 @@ table.metrics tbody tr:last-child td { border-bottom:none; }
 }
 
 .sample-cell img {
-  width: 62px;   /* or whatever size you want */
+  width: 65px;   /* or whatever size you want */
   height: auto;
   display: block;
 }

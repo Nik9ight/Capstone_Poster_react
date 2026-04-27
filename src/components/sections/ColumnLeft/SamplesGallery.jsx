@@ -32,7 +32,7 @@ const SamplesGallery = () => {
       <div className="section-title">
         <span className="num">03 /</span>
         <h2>Segmentation Samples</h2>
-        <span className="hint">3 modalities</span>
+        <span className="hint">4 modalities</span>
       </div>
       <div className="samples">
         <div className="sample-row">

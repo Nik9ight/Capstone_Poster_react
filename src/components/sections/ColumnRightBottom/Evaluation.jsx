@@ -56,7 +56,7 @@ const Evaluation = () => {
 
       <Panel style={{ padding: 0, alignSelf: 'start' }}>
         <p style={{ margin: 0, padding: '8px 12px', fontSize: '13px' }}>
-          Our proposed architecture, <b>LViT-N</b> achieves the highest Dice scores across <b>all three modalities</b>, with the largest margins on Lungs CT (+2.2% DSC over MedCLIP-SAMV2) and Breast US (+1.80 DSC). On NSD, our model leads on Lung X-Ray and Breast US while remaining competitive on Brain MRI — evidence that language conditioning improves boundary precision rather than just region overlap. All numbers reported on held-out test splits with consistent preprocessing across baselines. Best result per metric is highlighted; ablations and per-class scores available in the appendix.
+          Our proposed architecture, <b>LViT-N</b>, achieves the highest Dice scores across <b>all four modalities</b>, with the largest margins on Lungs CT (+2.20% DSC over MedCLIP-SAMV2) and Breast US (+1.80% DSC). On NSD, our model leads on Lung X-Ray, Breast US, and Lungs CT, while remaining competitive on Brain MRI -- evidence that language conditioning improves boundary precision rather than just region overlap. All numbers reported on held-out test splits with consistent preprocessing across baselines. Best result per metric is highlighted; ablations and per-class scores available in the appendix.
         </p>
       </Panel>
     </>
