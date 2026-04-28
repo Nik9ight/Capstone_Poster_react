@@ -121,14 +121,14 @@
 .author .id {
   font-family:'JetBrains Mono', monospace;
   color: var(--ink-mute);
-  font-size: 10.5px;
+  font-size: 11.5px;
   letter-spacing: 0.06em;
   margin-top: 2px;
 }
 .author.supervisor .role {
   color: var(--accent-ink);
   font-family:'JetBrains Mono', monospace;
-  font-size: 9px;
+  font-size: 11.5px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   display:block;
@@ -136,7 +136,7 @@
 }
 .affiliation {
   font-family:'JetBrains Mono', monospace;
-  font-size: 10px;
+  font-size: 11.5px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--ink-mute);
@@ -250,7 +250,7 @@
 }
 .abstract-panel .label {
   font-family:'JetBrains Mono', monospace;
-  font-size: 10.5px;
+  font-size: 12.7px;            /*12.7*/
   letter-spacing: 0.24em;
   text-transform: uppercase;
   color: var(--accent-ink);
@@ -496,7 +496,7 @@ table.metrics tbody tr:last-child td { border-bottom:none; }
 }
 
 .sample-cell img {
-  width: 65px;   /* or whatever size you want */
+  width: 67px;   /* or whatever size you want */
   height: auto;
   display: block;
 }
